@@ -49,6 +49,14 @@
 						<input type="button" class="btn btn-default btn-xs" value="标为已读"/>
 					</div>
 					<ul class="chat-menbers-list">
+						<li class="on">
+							<img src="images/defaultimg.jpg" alt=""/> kezhi: <span class="gray"> fsgdsagadsfdsafgssfds</span><br/>
+							<span class="chat-time gray">5月23日 21:32</span>
+						</li>
+						<li>
+							<img src="images/defaultimg.jpg" alt=""/> kezhi: <span class="gray"> fsgdsagadsfdsafgssfds</span><br/>
+							<span class="chat-time gray">5月23日 21:32</span>
+						</li>
 						<li>
 							<img src="images/defaultimg.jpg" alt=""/> kezhi: <span class="gray"> fsgdsagadsfdsafgssfds</span><br/>
 							<span class="chat-time gray">5月23日 21:32</span>
@@ -57,9 +65,87 @@
 				</div>
 				<div class="chat-content pull-left">
 					<div class="chat-content-title">我与kezhi的私信（共1条）</div>
-					<ul class="msg-container" id="msg_container" style="display: block; margin-top: 0px; height: 362px;">
-						<li><div class="msgitem leftitem clearfix"><div class="portrait-con left"><a target="_blank" href="http://www.baidu.com/p/cxtukhh?from=msg"><img src="http://himg.bdimg.com/sys/portrait/item/236d637874756b6868d026.jpg" data-src="236d637874756b6868d026" class="border-radius-5 border-shadow-img portrait" alt="cxtukhh"></a></div><div class="msg-content-header left"></div><div class="msg-content-body left"><a class="close" mid="3865362010" href="#" style="display: none;"></a><div class="content"><p class="abstract">jdjfkdskffjdkssfdsfdsfsefsf</p><p class="msgertime"><span class="time">2012-5-28 3:35</span><a href="#" class="reply hide">回复</a></p></div></div></div></li>
+					<ul class="chat-container">
+						<li class="msgitem leftitem clearfix">
+							<div class="chathead pull-left">
+								<a target="_blank" href="#">
+									<img src="images/defaultimg.jpg" alt=""/>
+								</a>
+							</div>
+							<div class="msg-content-header pull-left"></div>
+							<div class="msg-content-body pull-left">
+								<a class="close" href="#" style="display: none;"></a>
+								<div class="msg-content">
+									<p class="abstract">jdjfkdskffjdkssfdsfdsfsefsf</p>
+									<span class="chat-time text-right">2012-5-28 3:35</span>
+								</div>
+							</div>
+						</li>
+						<li class="msgitem leftitem clearfix">
+							<div class="chathead pull-left">
+								<a target="_blank" href="#">
+									<img src="images/defaultimg.jpg" alt=""/>
+								</a>
+							</div>
+							<div class="msg-content-header pull-left"></div>
+							<div class="msg-content-body pull-left">
+								<a class="close" href="#" style="display: none;"></a>
+								<div class="msg-content">
+									<p class="abstract">jdjfkdskffjdkssfdsfdsfsefsf</p>
+									<span class="chat-time text-right">2012-5-28 3:35</span>
+								</div>
+							</div>
+						</li>
+						<li class="msgitem rightitem clearfix">
+							<div class="msg-content-header pull-right"></div>
+							<div class="msg-content-body pull-right">
+								<a class="close" href="#" style="display: none;"></a>
+								<div class="msg-content">
+									<p class="abstract">jdjfkdskffjdkjdjfkdskffjdkssfdsfdsfsefsfjdjfkdkffjdkssfdsfdsfsefsfjdjfkdskffjdkssfdsfkffjdkssfdsfdsfsefsfjdjfkdskffjdkssfdsfkffjdkssfdsfdsfsefsfjdjfkdskffjdkssfdsfskffjdkssfdsfkffjdkssfdsfdsfsefsfjdjfkdskffjdkssfdsfkffjdkssfdsfdsfsefsfjdjfkdskffjdkssfdsfdsfsefsfssfdsfdsfsefsf</p>
+									<span class="chat-time text-right">2012-5-28 3:35</span>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</li>
+						<li class="msgitem leftitem clearfix">
+							<div class="chathead pull-left">
+								<a target="_blank" href="#">
+									<img src="images/defaultimg.jpg" alt=""/>
+								</a>
+							</div>
+							<div class="msg-content-header pull-left"></div>
+							<div class="msg-content-body pull-left">
+								<a class="close" href="#" style="display: none;"></a>
+								<div class="msg-content">
+									<p class="abstract">jdjfkdskffjdkssfdsfdsfsefsf</p>
+									<span class="chat-time text-right">2012-5-28 3:35</span>
+								</div>
+							</div>
+						</li>
 					</ul>
+
+					<div class="send-editor clearfix">
+
+						<div class="editor-textbox">
+							<div class="editor-textarea">
+								<div class="msgeditor clearfix">
+									<div class="msgeditor-toolbar">
+										<ul class="toolbar-inner"><li class="toolbar-item toolbar-face"></li></ul>
+									</div>
+									<div class="msgeditor-editorbox">
+										<textarea name="msgcontent" class="msgtextarea" placeholder="输入私信内容"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="editor-console clearfix">
+								<input type="button" id="modEditorSubmit" class="editor-submit-btn" value="发送">
+								<div id="modEditorLength" class="editor-length-count">0/1000</div>
+								<div class="editor-sending"></div>
+							</div>
+						</div>
+
+					</div>
+					<!---->
 				</div>
 			</div>
 
