@@ -94,6 +94,8 @@ ul,li{
 	padding: 6px 10px;
 	border-bottom: 1px solid #d9d9d9;
 }
+
+/* 消息部分 */
 .chat-content{
 	width: 521px;
 }
