@@ -6,6 +6,8 @@ ul,li{
 .container{
 	width: 980px;
 }
+
+/*左侧*/
 .sider{
 	background: #458fce ;
 	width: 70px;
