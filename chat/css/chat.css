@@ -52,6 +52,7 @@ ul,li{
 	-moz-box-shadow: 0 1px 0 #f0f0f0;
 	-khtml-box-shadow: 0 1px 0 #f0f0f0;
 	box-shadow: 0 1px 0 #f0f0f0;
+	cursor: pointer;
 }
 .chat-menbers-list li.on{
 	background: #fff;
@@ -212,7 +213,6 @@ ul,li{
 	font-size: 14px;
 	font-weight: 300;
 	text-align: center;
-	border: 0;
 	margin-right: 30px;
 	background: #dfedf9;
 	color: #9dc3e9;
