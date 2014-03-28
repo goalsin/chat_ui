@@ -6,6 +6,8 @@ ul,li{
 .container{
 	width: 980px;
 }
+
+/*左侧*/
 .sider{
 	background: #458fce ;
 	width: 70px;
@@ -30,6 +32,9 @@ ul,li{
 }
 .sider li.on{
 	border-bottom: 1px solid #8ab8df;
+	background: #3c85c3;
+}
+.sider li:hover{
 	background: #3c85c3;
 }
 .box-border{
@@ -58,6 +63,9 @@ ul,li{
 	-khtml-box-shadow: 0 1px 0 #f0f0f0;
 	box-shadow: 0 1px 0 #f0f0f0;
 	cursor: pointer;
+}
+.chat-menbers-list li:hover{
+	background: #f3f3f3;
 }
 .chat-menbers-list li.active{
 	background: #fff;
@@ -107,8 +115,11 @@ ul,li{
 	padding: 8px 31px 6px 17px;
 }
 .chat-container{
-	margin: 25px 20px;
-	height: 358px;
+	margin: 0px 20px;
+}
+
+.tab-content{
+	height: 408px;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
@@ -128,7 +139,7 @@ ul,li{
 	margin-top: 20px;
 	margin-right: -1px;
 	width: 8px;
-	height: 68px;
+	height: 18px;
 	position: relative;
 	z-index: 1000;
 }
@@ -163,11 +174,15 @@ ul,li{
 	-moz-border-radius: 5px 3px 3px 5px;
 	-webkit-border-radius: 5px 3px 3px 5px;
 }
+
+.chat-container .msgitem{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
 .chat-container .msgitem .msg-content-body {
 	max-width: 416px;
 	min-width: 200px;
 	position: relative;
-	margin-bottom: 20px;
 	-webkit-transition-property: all;
 	-webkit-transition-duration: .5s;
 	-moz-transition-property: all;
