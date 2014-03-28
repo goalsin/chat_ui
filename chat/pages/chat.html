@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-cn"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+    <title>simple chat</title>
+    <!-- Bootstrap core CSS -->
+    <link href="app/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/chat.css" rel="stylesheet">
+
+	  <!-- custom CSS -->
+ 	<link rel="stylesheet" href="app/css/bootstrap.vertical-tabs.css">
+	<link href="app/css/speech.css" rel="stylesheet">
+	 
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body style="">
+    <div class="container">
+		<div class="row">
+			<h1 class="pull-left">logo</h1>
+			<div class="pull-right">私信</div>
+		</div>
+		<div class="row box-border">
+			<div class="sider text-center pull-left">
+				<ul>
+					<li class="on">收信</li>
+					<li>写信</li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="chat-menbers pull-left">
+					<div class="chat-operate-btn">
+						<input type="button" class="btn btn-default btn-xs" value="批量删除"/>
+						<input type="button" class="btn btn-default btn-xs" value="标为已读"/>
+					</div>
+					<ul class="chat-menbers-list">
+						<li class="on">
+							<img src="images/defaultimg.jpg" alt=""/> kezhi: <span class="gray"> fsgdsagadsfdsafgssfds</span><br/>
+							<span class="chat-time gray">5月23日 21:32</span>
+						</li>
+						<li>
+							<img src="images/defaultimg.jpg" alt=""/> kezhi: <span class="gray"> fsgdsagadsfdsafgssfds</span><br/>
+							<span class="chat-time gray">5月23日 21:32</span>
+						</li>
+						<li>
+							<img src="images/defaultimg.jpg" alt=""/> kezhi: <span class="gray"> fsgdsagadsfdsafgssfds</span><br/>
+							<span class="chat-time gray">5月23日 21:32</span>
+						</li>
+					</ul>
+				</div>
+				<div class="chat-content pull-left">
+					<div class="chat-content-title">我与kezhi的私信（共1条）</div>
+					<ul class="chat-container">
+						<li class="msgitem leftitem clearfix">
+							<div class="chathead pull-left">
+								<a target="_blank" href="#">
+									<img src="images/defaultimg.jpg" alt=""/>
+								</a>
+							</div>
+							<div class="msg-content-header pull-left"></div>
+							<div class="msg-content-body pull-left">
+								<a class="close" href="#" style="display: none;"></a>
+								<div class="msg-content">
+									<p class="abstract">jdjfkdskffjdkssfdsfdsfsefsf</p>
+									<span class="chat-time text-right">2012-5-28 3:35</span>
+								</div>
+							</div>
+						</li>
+						<li class="msgitem leftitem clearfix">
+							<div class="chathead pull-left">
+								<a target="_blank" href="#">
+									<img src="images/defaultimg.jpg" alt=""/>
+								</a>
+							</div>
+							<div class="msg-content-header pull-left"></div>
+							<div class="msg-content-body pull-left">
+								<a class="close" href="#" style="display: none;"></a>
+								<div class="msg-content">
+									<p class="abstract">jdjfkdskffjdkssfdsfdsfsefsf</p>
+									<span class="chat-time text-right">2012-5-28 3:35</span>
+								</div>
+							</div>
+						</li>
+						<li class="msgitem rightitem clearfix">
+							<div class="msg-content-header pull-right"></div>
+							<div class="msg-content-body pull-right">
+								<a class="close" href="#" style="display: none;"></a>
+								<div class="msg-content">
+									<p class="abstract">jdjfkdskffjdkjdjfkdskffjdkssfdsfdsfsefsfjdjfkdkffjdkssfdsfdsfsefsfjdjfkdskffjdkssfdsfkffjdkssfdsfdsfsefsfjdjfkdskffjdkssfdsfkffjdkssfdsfdsfsefsfjdjfkdskffjdkssfdsfskffjdkssfdsfkffjdkssfdsfdsfsefsfjdjfkdskffjdkssfdsfkffjdkssfdsfdsfsefsfjdjfkdskffjdkssfdsfdsfsefsfssfdsfdsfsefsf</p>
+									<span class="chat-time text-right">2012-5-28 3:35</span>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</li>
+						<li class="msgitem leftitem clearfix">
+							<div class="chathead pull-left">
+								<a target="_blank" href="#">
+									<img src="images/defaultimg.jpg" alt=""/>
+								</a>
+							</div>
+							<div class="msg-content-header pull-left"></div>
+							<div class="msg-content-body pull-left">
+								<a class="close" href="#" style="display: none;"></a>
+								<div class="msg-content">
+									<p class="abstract">jdjfkdskffjdkssfdsfdsfsefsf</p>
+									<span class="chat-time text-right">2012-5-28 3:35</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+					<div class="send-editor clearfix">
+
+						<div class="editor-textbox">
+							<div class="editor-textarea">
+								<div class="msgeditor clearfix">
+									<div class="msgeditor-toolbar">
+										<ul class="toolbar-inner"><li class="toolbar-item toolbar-face"></li></ul>
+									</div>
+									<div class="msgeditor-editorbox">
+										<textarea name="msgcontent" class="msgtextarea" placeholder="输入私信内容"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="editor-console clearfix">
+								<input type="button" id="modEditorSubmit" class="editor-submit-btn" value="发送">
+								<div id="modEditorLength" class="editor-length-count">0/1000</div>
+								<div class="editor-sending"></div>
+							</div>
+						</div>
+
+					</div>
+					<!---->
+				</div>
+			</div>
+
+		</div>
+
+    </div> <!-- /container -->
+
+    <script src="app/js/jquery-2.1.0.js"></script>
+    <script src="app/bootstrap/js/bootstrap.min.js"></script>
+  	<script>
+		$('.nav-tabs a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		})
+	</script>
+
+	<script type="text/javascript" src="app/js/faye.js"></script>
+	<script type="text/javascript" src="app/js/fayehelper.js"></script>
+
+</body></html>
