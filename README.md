@@ -16,6 +16,8 @@ npm install
 npm start
 ```
 
+访问[聊天页面](http://127.0.0.1:8080/chat.html)
+
 ## License
 
 this gem is released under the [MIT](http://www.opensource.org/licenses/MIT) License.
