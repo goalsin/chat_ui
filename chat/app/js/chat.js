@@ -1,12 +1,9 @@
 $(function(){
 	
-	// $(document).pjax('a.url_pjax', '#pjax-container')
-	
 	$('#url_pjax_chat').click(function(){
 		$('#pjax-container').load('app/pages/messages.html');
 		
 	});
-	
 	
 	$('#url_pjax_write').click(function(){
 		$('#pjax-container').load('app/pages/write.html');
