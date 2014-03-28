@@ -22,6 +22,12 @@ ul,li{
 	border-bottom: 1px solid #3783c3;
 	cursor: pointer;
 }
+.sider li a{
+	color: #fff;
+}
+.sider li a:hover{
+	text-decoration: none;
+}
 .sider li.on{
 	border-bottom: 1px solid #8ab8df;
 	background: #3c85c3;
@@ -45,7 +51,6 @@ ul,li{
 }
 .chat-menbers-list li{
 	padding: 10px;
-	margin-right: -1px;
 	position: relative;
 	border-bottom: 1px solid #e2e2e2;
 	-webkit-box-shadow: 0 1px 0 #f0f0f0;
@@ -54,13 +59,19 @@ ul,li{
 	box-shadow: 0 1px 0 #f0f0f0;
 	cursor: pointer;
 }
-.chat-menbers-list li.on{
+.chat-menbers-list li.active{
 	background: #fff;
 	margin-right: -1px;
 	-webkit-box-shadow: 0 1px 0 #f0f0f0;
 	-moz-box-shadow: 0 1px 0 #f0f0f0;
 	-khtml-box-shadow: 0 1px 0 #f0f0f0;
 	box-shadow: 0 1px 0 #f0f0f0;
+}
+.chat-menbers-list li a{
+	display: block;
+}
+.chat-menbers-list li a:hover{
+	text-decoration: none;
 }
 .chat-menbers-list li img{
 	width: 32px;
