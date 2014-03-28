@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "http-server chat -p 8080 --cors -s &"
+    "start": "http-server chat -p 8080 --cors -s &",
   },
   "dependencies": {
 		"http-server": ">= 0.0.1"

@@ -7,7 +7,14 @@ a chat ui
 
 - [bootstrap](http://getbootstrap.com)
 - [bootstrap-vertical-tabs](https://github.com/dbtek/bootstrap-vertical-tabs)
-- [pjax](https://github.com/defunkt/jquery-pjax)
+
+
+## 用法
+
+```shell
+npm install
+npm start
+```
 
 ## License
 
