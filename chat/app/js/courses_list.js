@@ -9,7 +9,6 @@ $(function(){
 	 * 获取课程列表
 	 */
 	function get_courses_list(){
-		var token = "7975cd5c649f38e46752c95e86aba1d8";
 		var url = get_courses_list_url(token);
 		
 		$.get(url,function(res){

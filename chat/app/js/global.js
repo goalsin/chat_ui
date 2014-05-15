@@ -1,8 +1,9 @@
 var DEV_HOST = "http://0.0.0.0:3000/";
 var SERVER_HOST = "http://at35.com:3000/";
 
-var api_host = DEV_HOST;
+window.api_host = DEV_HOST;
 
+window.token = "b08a9cf82227f5e03f46049960b2e104"
 /**
  * Query string parser
  */ 

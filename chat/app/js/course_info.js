@@ -12,8 +12,6 @@ $(function(){
 		
 		var id = getParameterByName('id');
 		// alert(id);
-		
-		var token = "7975cd5c649f38e46752c95e86aba1d8";
 		var url = get_course_info_by_id(id ,token);
 		
 		$.get(url,function(res){
@@ -34,7 +32,40 @@ $(function(){
 	                + ""
 	                + "</li>";
 				
-				$('.card').html(course_html);
+				$('#home>.card').html(course_html);
+				
+				
+				var tclass_html = res.tclass.length<= 0 ?'<h1>no class</h1>':'';
+				
+				for(var i = 0; i<res.tclass.length; i++){
+					var cls = res.tclass[i];
+					
+					tclass_html += "<li>"
+						+ "<a href='course.html?id=" + cls.id + "'>"
+		                + "<h5>"+ cls.name +"</h5>"
+		                + "<p>"+ cls.desc.substring(0,130) +"</p>"
+						
+		                + "<div class='tips'><span class='l'>start：" + cls.start + "</span> <span class='r'>end：" + cls.end + "</span></div>"
+		                + "</a>"
+		                + "</li>";
+				}
+				
+				
+				
+				$('#profile>.card').html(tclass_html);
+				
+				
+				var author_html ='';
+				var author = res.author;
+				
+				author_html += "<li>"
+					+ ""
+	                + "<h5>"+ author.email +"</h5>"
+	                + "<p>"+ author.email.substring(0,30) +"</p>"
+	        
+	                + "</li>";
+				
+				$('#settings>.card').html(author_html);
 				
 			}else{
 				alert('还没有课程吧 ~ :  ' + res.data.error);
