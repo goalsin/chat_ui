@@ -18,7 +18,8 @@ $(function(){
 			
 			// login succ
 			if(data.token){
-				alert(data.token);
+				alert("登陆成功，跳转到课程列表页面");
+				window.location.href = 'course.html'
 			}else{
 				alert('login failed:  ' + data.error);
 			}
