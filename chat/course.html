@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-cn"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+    <title>simple chat</title>
+    <!-- Bootstrap core CSS -->
+    <link href="app/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="app/css/chat.css" rel="stylesheet">
+	<link href="app/css/course.css" rel="stylesheet">
+	<!-- <link href="app/css/scrollbar.css" rel="stylesheet">
+
+	  <!-- custom CSS 
+ 	<link rel="stylesheet" href="app/css/bootstrap.vertical-tabs.css">
+	<link href="app/css/speech.css" rel="stylesheet"> -->
+	 
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body style="">
+    <div class="container">
+		<div class="row">
+			<h1 class="pull-left">课程列表</h1>
+			<div class="pull-right">
+				<a href="chat.html">私信</a>
+			</div>
+		</div>
+		<div class="row box-border"  >
+			<div class="sider text-center pull-left">
+				<ul>
+					<li class="on">
+						<a href="#" id='url_pjax_chat'>最新</a>
+					</li>
+					<li>
+						<a href="#" id='url_pjax_write'>最热</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content" id="pjax-container">
+				<!-- <div class="content clearfix"> -->
+                     <ul class="card">
+				        <!--   
+		          	   <li>
+			                <a href="/view/76">
+			                <img src="http://img.mukewang.com/5358a36b0001503f06010338-300-170.jpg" width="100%" height="170" title="案例：2048私人订制" alt="案例：2048私人订制">
+			                <h5>案例：慕课网2048私人订制</h5>
+			                <p>2048趣味游戏！慕课网推出趣味游戏+实现的前端课程。</p>
+			                <div class="tips"><span class="l">1536人参加</span> <span class="r">课程时长：2小时</span></div>
+			                </a>
+		                </li>
+		                 -->
+						加载中...
+                                      	
+				      </ul>
+                                
+				            <!-- </div> -->
+			
+			
+			
+			</div>
+
+		</div>
+
+    </div> <!-- /container -->
+
+	<!-- js/lib -->
+    <script src="app/js/lib/jquery-2.1.0.js"></script>
+    <script src="app/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="app/js/lib/faye.js"></script>
+	<script type="text/javascript" src="app/js/lib/fayehelper.js"></script>
+	<!-- js/custom -->
+	<script src="app/js/course.js"></script>
+
+</body></html>
