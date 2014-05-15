@@ -376,3 +376,9 @@ ul.card  li.mr0 {
 ul.card  ul li img{
 	margin:10px 10px 0 10px
 }
+.l{
+	float:left;
+}
+.r{
+	float:right;
+}
