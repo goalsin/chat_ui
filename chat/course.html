@@ -30,15 +30,15 @@
   </head>
 
   <body style="">
-    <div class="container">
+    <div class="container" >
 		<div class="row">
-			<h1 class="pull-left">课程列表</h1>
+			<h1 class="pull-left">课程信息</h1>
 			<div class="pull-right">
-				<a href="chat.html">私信</a>
+				<a href="courses_list.html">课程列表</a>
 			</div>
 		</div>
 		<div class="row box-border"  >
-			<div class="sider text-center pull-left">
+			<!-- <div class="sider text-center pull-left">
 				<!-- <ul>
 					<li class="on">
 						<a href="#" id='url_pjax_chat'>最新</a>
@@ -46,10 +46,23 @@
 					<li>
 						<a href="#" id='url_pjax_write'>最热</a>
 					</li>
-				</ul> -->
-			</div>
-			<div class="content" id="pjax-container">
-				<!-- <div class="content clearfix"> -->
+				</ul>
+							</div>
+				 -->
+
+			<div class="content1" id="pjax-container1">
+				
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" id="myTab">
+				  <li><a href="#home" data-toggle="tab">基本信息</a></li>
+				  <li><a href="#profile" data-toggle="tab">班级信息</a></li>
+				  <li><a href="#messages" data-toggle="tab">文档信息</a></li>
+				  <li><a href="#settings" data-toggle="tab">讲师信息</a></li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+				  <div class="tab-pane  fade in active" id="home"><!-- <div class="content clearfix"> -->
                      <ul class="card">
 				        <!--   
 		          	   <li>
@@ -66,10 +79,52 @@
 				      </ul>
                                 
 				            <!-- </div> -->
-			
-			
+				 
+				  </div>
+				  <div class="tab-pane" id="profile">
+					<div class="row" style ='background-color:lightblue;height:200px;'>
+						班级信息
+						
+						
+						<ul>
+							<li>2月班
+								<button type="button" class="btn btn-default">参加</button>
+							</li>
+							<li>3月班
+								<button type="button" class="btn btn-default">参加</button>
+							</li>
+							<li>4月班
+								<button type="button" class="btn btn-default">参加</button>
+							</li>
+							<li>5月班
+								<button type="button" class="btn btn-default">参加</button>
+							</li>
+						</ul>
+					</div>
+				  </div>
+				  <div class="tab-pane" id="messages">
+					
+					<div class="row" style ='background-color:red;height:100px;'>
+						文档信息
+						
+					</div>
+				  </div>
+				  <div class="tab-pane" id="settings">
+				  	
+					<div class="row" style ='background-color:white;height:100px;'>
+						讲师信息
+						
+					</div>
+					
+				  </div>
+				</div>
+				
+				
+				
 			
 			</div>
+			
+			
 
 		</div>
 
